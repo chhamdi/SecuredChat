@@ -51,7 +51,7 @@ docker run --name phpldapadmin-service --hostname phpldapadmin-service --link ld
 ## Global Architecture
 
 Our solution final architecture should look like this:
-![Screenshot of architecure](./screenshot.png)
+![Screenshot of architecure](./architecture.png)
 
 ## Frontend design
 
