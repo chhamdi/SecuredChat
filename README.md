@@ -48,6 +48,12 @@ Run phpLDAPadmin as a UI to manage the LDAP server
 ```sh
 docker run --name phpldapadmin-service --hostname phpldapadmin-service --link ldap-service:ldap-host --env PHPLDAPADMIN_LDAP_HOSTS=ldap-service --detach osixia/phpldapadmin:0.9.0
 ```
+
+Get phpLDAPadmin's IP adress in order to access the UI
+
+```sh
+docker inspect -f "{{ .NetworkSettings.IPAddress }}" phpldapadmin-service
+```
 ## Global Architecture
 
 Our solution final architecture should look like this:
