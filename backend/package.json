@@ -1,0 +1,20 @@
+{
+  "name": "cool-chat-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "cors": "^2.8.5",
+    "events": "^3.3.0",
+    "express": "^4.16.4",
+    "socket.io": "^4.1.2",
+    "uuid": "^8.3.2"
+  }
+}
